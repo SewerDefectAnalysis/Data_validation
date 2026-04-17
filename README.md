@@ -21,6 +21,7 @@ flowchart LR
 
     subgraph stage1[ ]
         B[Validation<br/>Rules]
+        C[Optional: Validation<br/>Report]
     end
  
     style stage1 stroke:#FF0000,stroke-width:3px,fill:none
