@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The diagram below provides an overview of the project workflow, which is organized into four main steps and one optional component. This repository corresponds to the validation steps, highlighted in red in the figure.
+The diagram below provides an overview of the project workflow, which is organized into four main steps and one optional component. This repository corresponds to the data validation steps, highlighted in red in the figure.
 
 ```mermaid
 %%{init: {'flowchart': {'nodeSpacing': 40, 'rankSpacing': 50}}}%%
@@ -20,7 +20,7 @@ flowchart LR
     style optional_branch fill:none,stroke:none
 
     subgraph stage1[ ]
-        A[Database Structure]
+        B[Validation<br/>Rules]
     end
  
     style stage1 stroke:#FF0000,stroke-width:3px,fill:none
@@ -28,6 +28,8 @@ flowchart LR
 
     %% Click links
     click A "https://github.com/SewerDefectAnalysis/Database_Structure"
+    click B "https://github.com/SewerDefectAnalysis/Data_validation"
+    click C "https://github.com/SewerDefectAnalysis/Data_validation"
 
     %% Styles
     classDef data fill:#E8F0FE,stroke:#1A73E8,stroke-width:1.8px
