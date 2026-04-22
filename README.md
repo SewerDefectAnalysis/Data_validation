@@ -252,7 +252,7 @@ For questions, feedback, or collaboration inquiries related to the paper or this
 Email: _mgon869@aucklanduni.ac.nz_  
 Affiliation: University of Auckland
 
-**Juana Herran**  
+**Juana Herrán**  
 Email: _jher924@aucklanduni.ac.nz_  
 Affiliation: University of Auckland
 
