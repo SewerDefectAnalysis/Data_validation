@@ -237,6 +237,26 @@ Below is a brief description of the files that make up this repository:
 - **`reporting.py`**: Generates the final validation reports.
 
 ---
+## License
+
+This project is distributed under the MIT License.
+See the `LICENSE` file for the full text.
+
+---
+
+## Contact
+
+For questions, feedback, or collaboration inquiries related to the paper or this database structure, please contact:
+
+**María A. González**  
+Email: _mgon869@aucklanduni.ac.nz_  
+Affiliation: University of Auckland
+
+**Juana Herran**  
+Email: _jher924@aucklanduni.ac.nz_  
+Affiliation: University of Auckland
+
+---
 ## Appendix A
 The tables below show the columns used in the validation schema, with their definitions and units. The input file doesn’t need to include all columns, but it **must use the exact column names** shown for data validation to work correctly.
 
