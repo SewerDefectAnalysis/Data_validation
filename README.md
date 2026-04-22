@@ -77,6 +77,7 @@ Install dependencies using:
 ```bash
 pip install -r requirements_validation_rules.txt
 ```
+
 ---
 ### Input data
 **Database (recommended)**
@@ -93,6 +94,7 @@ This is the recommended option, as it ensures better data consistency and contro
 Alternatively, input data can be provided as an Excel file. In this case, the workbook must contain four sheets: `PIPES`, `CCTV`, `DEFECTS`, and `HYDRAULIC_PROPERTIES`
 The column names must match those shown in **Appendix A**.
 
+---
 ### How to run
 **1.** Open the notebook `Run_validation_.ipynb`.  
 **2.** Locate the `load_input_data()` function and update the following parameters:
@@ -112,6 +114,7 @@ output_path = "Validated_data.xlsx"
 
 Once the execution is complete, the validated data will be saved in the output path.
 
+---
 ### Code structure
 Below is a brief description of the files that make up this repository:
 
@@ -126,9 +129,8 @@ Below is a brief description of the files that make up this repository:
 - **`count_changes.py`**: Counts the changes done in the data after a validation rule is applied.
 
 - **`export_validated_data.py`**: Exports the validated data to an Excel file.
+
 ---
-
-
 ## Validation report (optional)
 
 This folder is intended to create a validation report in order to identify potential errors or inconsistencies before the data is used in any type of analysis or processing.
@@ -155,6 +157,7 @@ The validation process checks for the following types of issues:
 
 The resulting report contains error and warning messages for values that require review.
 
+---
 ### Requirements
 
 Install dependencies using:
@@ -162,6 +165,8 @@ Install dependencies using:
 ```bash
 pip install -r requirements_validation_report.txt
 ```
+
+---
 ### Input data
 **Database (recommended)**
 
@@ -181,7 +186,8 @@ An example workbook (`EXAMPLE_DATA.xlsx`) is provided as a reference for the req
 
 Detailed descriptions of the required columns for each sheet are provided in **Appendix A**.
 
-#### Output Report
+---
+### Output Report
 The issues found in the validation are exported to the following files:
 - `Summary`: overview of errors/warnings per entity
 - `pipes_issues`: detailed results for the pipes
@@ -196,6 +202,7 @@ The detailed files included:
 - A descriptive message
 - The actual value that triggered the issue
 
+---
 ### How to run
 **1.** Open the notebook `Run_validation_workflow.ipynb`.  
 **2.** Locate the `main()` function and update the following parameters:
@@ -213,6 +220,7 @@ open_containing_folder = True   # Automatically open the results folder
 
 Once the execution is complete, the validation results will be generated in the output directory.
 
+---
 ### Code structure
 Below is a brief description of the files that make up this repository:
 
